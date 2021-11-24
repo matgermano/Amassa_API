@@ -1,12 +1,12 @@
 const express = require ('express');
-
+const routes = require('../src/routes');
 const app = express();
+const port = 3000;
 
 
+routes(app)
 
-app.get('/', (req, res) => {
-    res.send('Hello World')
-})
+app.listen(port, () => console.log(`Listening ${port}`));
 
 
-app.listen(3001, () => console.log('listening on http://localhost:3001'));
+module.exports = app;
