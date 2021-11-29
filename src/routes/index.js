@@ -1,5 +1,7 @@
 const entradas = require('./entradasRoutes');
 const express = require('express');
+const cors = require('cors');
+
 
 module.exports = app => {
     app.use((req, res, next) => {
@@ -7,7 +9,8 @@ module.exports = app => {
         next();
     });
 
+    app.use(cors);
     app.use(express.json());
-    app.use(entradas)
+    app.use(entradas);
     
 }
