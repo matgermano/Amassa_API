@@ -13,7 +13,9 @@ class PizzaController {
         try {
             const umaPizza = await database.pizzas.findOne({ where: { id: Number(id) } })
             return res.status(200).json(umaPizza)
-        } catch (error) { }
+        } catch (error) {
+            return res.status(500).json(error.message)
+         }
     }
 
 
@@ -22,7 +24,9 @@ class PizzaController {
         try {
             const novaPizzaCriada = await database.pizzas.create(novaPizza)
             res.status(200).json(novaPizzaCriada)
-        } catch (error) { }
+        } catch (error) { 
+            return res.status(500).json(error.message)
+        }
     }
     static async atualizaPizza(req, res) {
         const { id } = req.params
@@ -32,15 +36,19 @@ class PizzaController {
             const pizzaAtualizada = await database.pizzas.findOne({ where: { id: Number(id) } })
             return res.status(200).json(pizzaAtualizada)
         } catch (error) {
+            return res.status(500).json(error.message)  
         }
     }
 static async apagaPizza(req, res){
     const { id } = req.params
     try{
 await database.pizzas.destroy({ where: { id: Number(id) } })
-return res.status(200).json({mensagem:`id ${id} deletado`})
+return res.status(200).json({mensagem:`Registro com ${id} deletado`})
 
-    }catch(error){}
+    }catch(error){
+        
+    }
+
 }
 }
 
