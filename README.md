@@ -44,7 +44,7 @@ $ git clone https://github.com/matgermano/Amassa_API.git
 
 2. Crie um banco de dados no sistema SQL de sua preferência: MySQL, Postegree, SQL Server, SQLITE3. 
 
-3. Crie uma tabela com o nome colaboradores no banco de sua preferência.
+3. Crie uma tabela com o nome amassa no banco de sua preferência.
 
 4. Instale via terminal utilizando os seguintes comandos: 
 ```
@@ -54,12 +54,19 @@ $ git clone https://github.com/matgermano/Amassa_API.git
  npm install mysql2 
  npm install sequelize sequelize-cli path 
  npm install cors
+ npm install --save-dev nodemon
 
 ```
 ### no cmd, terminal ou powershell para rodar o amassa api:
 ``` 
-npm start
-
+"scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo "Error: no test specified" && exit 1"
+  }
+[16:34]
+"scripts": {
+    "start": "nodemon src/index.js"
+      }
 ```
 
 - abrindo o insomnia você verá algo do tipo:
