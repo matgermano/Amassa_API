@@ -63,7 +63,6 @@ $ git clone https://github.com/matgermano/Amassa_API.git
     "start": "nodemon src/index.js",
     "test": "echo "Error: no test specified" && exit 1"
   }
-[16:34]
 "scripts": {
     "start": "nodemon src/index.js"
       }
@@ -114,8 +113,8 @@ http://localhost:3000/pratos_principais
     "ingredientes": "Ragu de carne, molho de tomate, parmesão e muçarela gratinada.",
     "porcao":"Para dividir"
     "preco":"R$60,00"
-    "createdat": "2021-07-29t00:58:06.380z",
-    "updatedat": "2021-07-29t00:58:06.380z"
+    "createdat": "2021-11-29t00:58:06.380z",
+    "updatedat": "2021-11-29t00:58:06.380z"
   },
 ]
 ```
@@ -145,8 +144,8 @@ http://localhost:3000/pratos_principais
   "id": 2,
   "nome": "risotW tropical",
   "ingredientes": "Salmão grelhado com risoto de limão siciliano",
-  "updatedat": "2021-07-29t06:54:26.630z",
-  "createdat": "2021-07-29t06:54:26.630z"
+  "updatedat": "2021-11-29t06:54:26.630z",
+  "createdat": "2021-11-29t06:54:26.630z"
 }
 ```
 ### opa! acho que errei o nome do prato
@@ -187,20 +186,20 @@ localhost:3000/nome
   {
     "id": 1,
     "nome": "lasanha bolonhesa",
-    "createdat": "2021-07-29t00:45:29.254z",
-    "updatedat": "2021-07-29t00:45:29.254z"
+    "createdat": "2021-11-29t00:45:29.254z",
+    "updatedat": "2021-11-29t00:45:29.254z"
   },
   {
     "id": 2,
     "nome": "risoto tropical",
-    "createdat": "2021-07-29t00:45:42.407z",
-    "updatedat": "2021-07-29t00:45:42.407z"
+    "createdat": "2021-11-29t00:45:42.407z",
+    "updatedat": "2021-11-29t00:45:42.407z"
   },
   {
     "id": 3,
     "nome": "nhoque da mama",
-    "createdat": "2021-07-29t00:45:49.266z",
-    "updatedat": "2021-07-29t00:45:49.266z"
+    "createdat": "2021-11-29t00:45:49.266z",
+    "updatedat": "2021-11-29t00:45:49.266z"
   },
 ]
 ```
@@ -222,8 +221,8 @@ localhost:3000/ingredientes
 {
   "id": 4,
   "ingrediente": "Nhoque com molho branco ou vermelho.",
-  "updatedat": "2021-07-29t07:36:27.141z",
-  "createdat": "2021-07-29t07:36:27.141z"
+  "updatedat": "2021-11-29t07:36:27.141z",
+  "createdat": "2021-11-29t07:36:27.141z"
 }
 ```
 
@@ -263,8 +262,8 @@ localhost:3000/sobremesas/1
     "ingredientes": "Ragu de carne, molho de tomate, parmesão e muçarela gratinada.",
     "porcao":"Para dividir"
     "preco":"R$60,00"
-    "createdat": "2021-07-29t00:58:06.380z",
-    "updatedat": "2021-07-29t00:58:06.380z"
+    "createdat": "2021-11-29t00:58:06.380z",
+    "updatedat": "2021-11-29t00:58:06.380z"
   },
 }
 ```
@@ -282,8 +281,8 @@ localhost:3000/sobremesas/1
     "ingredientes": "Ragu de carne, molho de tomate, parmesão e muçarela gratinada.",
     "porcao":"Para dividir"
     "preco":"R$60,00"
-    "createdat": "2021-07-29t00:58:06.380z",
-    "updatedat": "2021-07-29t00:58:06.380z"
+    "createdat": "2021-11-29t00:58:06.380z",
+    "updatedat": "2021-11-29t00:58:06.380z"
 }
  ```
 
@@ -301,8 +300,8 @@ localhost:3000/sobremesas/1
     "ingredientes": "Ragu de carne, molho de tomate, parmesão e muçarela gratinada.",
     "porcao":"Para dividir"
     "preco":"R$65,00"
-    "createdat": "2021-07-29t00:58:06.380z",
-    "updatedat": "2021-07-29t00:58:06.380z"
+    "createdat": "2021-11-29t00:58:06.380z",
+    "updatedat": "2021-11-29t00:58:06.380z"
  }
  ```
  ### pronto! Agora se quiser, vamos deletar!
