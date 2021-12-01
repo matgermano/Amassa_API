@@ -1,0 +1,22 @@
+{
+  "name": "amassa3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "sequelize": "^6.12.0-alpha.1",
+    "sequelize-cli": "^6.3.0"
+  }
+}
