@@ -302,7 +302,7 @@ localhost:3000/sobremesas/1
  # usando o ![delete](https://img.shields.io/badge/delete-red.svg)
  - rota que vamos usar para deletar o prato
  ```http
- localhost:3000/livros/5
+ localhost:3000/prato_principal/1
  ```
  #### Com isso o prato foi deletado!  
  
