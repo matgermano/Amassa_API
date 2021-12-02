@@ -43,7 +43,7 @@ class PizzaController {
         const { id } = req.params
         try {
             await database.pizzas.destroy({ where: { id: Number(id) } })
-            return res.status(200).json({ mensagem: `Registro com ${id} deletado` })
+            return res.status(200).json({ mensagem: `Registro com id ${id} deletado` })
 
         } catch (error) {
             return res.status(500).json(error.message)
