@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "restaurante_amassa",
+    "password": "javis87178669",
+    "database": "pizza",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
