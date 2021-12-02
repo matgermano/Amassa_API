@@ -1,7 +1,8 @@
-const pizza = require('./pizzasRoute')
+const pizza = require('./pizzasRoute');
+const sobremesas = require('./sobremesasRoutes');
 const entradas = require('./entradasRoutes');
 const express = require('express');
-const cors = require('cors');
+
 
 
 module.exports = app => {
@@ -10,9 +11,9 @@ module.exports = app => {
         next();
     });
 
-    app.use(cors);
+    
     app.use(express.json());
-    app.use(entradas)
-    app.use(pizza)
-
+    app.use(entradas);
+    app.use(pizza);
+    app.use(sobremesas);
 }
