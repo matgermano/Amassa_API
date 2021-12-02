@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   };
-  Entradas.init({
+  Sobremesas.init({
     nome: DataTypes.STRING,
     ingredientes: DataTypes.STRING,
     porcao: DataTypes.STRING,
