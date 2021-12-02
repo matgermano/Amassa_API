@@ -3,8 +3,8 @@ const database = require ('../models');
 class SobremesasController {
    static async index(req, res) {
        try {
-        const entradas = await database.Entradas.findAll()
-        return res.status(200).json(entradas);
+        const sobremesas = await database.Sobremesas.findAll()
+        return res.status(200).json(sobremesas);
            
        } catch (error) {
            return res.status(500).json(error.message);
