@@ -1,5 +1,6 @@
 const pizza = require('./pizzasRoute');
 const sobremesas = require('./sobremesasRoutes');
+const pratosPrincipais = require('./p-principaisRoute');
 const entradas = require('./entradasRoutes');
 const express = require('express');
 
@@ -16,4 +17,6 @@ module.exports = app => {
     app.use(entradas);
     app.use(pizza);
     app.use(sobremesas);
+    app.use(pratosPrincipais);
+
 }
