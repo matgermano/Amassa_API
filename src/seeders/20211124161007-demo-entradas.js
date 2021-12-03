@@ -5,12 +5,12 @@ module.exports = {
      await queryInterface.bulkInsert('entradas', [{
       
         
-        nome: "teste",
-        ingredientes: "teste",
-        preco: "14",
-        createdAt: new Date(),
-        updatedAt: new Date()
-    ,
+    //     nome: "teste",
+    //     ingredientes: "teste",
+    //     preco: "14",
+    //     createdAt: new Date(),
+    //     updatedAt: new Date()
+    // ,
       }], {});
     
   },
