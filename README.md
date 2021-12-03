@@ -248,12 +248,12 @@ localhost:3000/pratos_principais/2
 ```
 - ok, o risoto foi deletado
 
-# Agora vamos ver os livros!!
+# Agora vamos ver os pratos!!
 
 # Usando o ![get](https://img.shields.io/badge/get-purple.svg)
 - rota para pegar um prato existente
 ```json 
-localhost:3000/sobremesas/1
+localhost:3000/pratos-principais/1
 ```
 - o resultado deve ser esse
 ```json
